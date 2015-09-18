@@ -52,6 +52,11 @@ function display_sidebar() {
        *
        */
       [
+        'is_page',
+        'is_shop',
+        'is_checkout',
+        'is_product',
+        'is_single',
         'is_404',
         'is_front_page',
         ['is_page_template', 'template-custom.php']
