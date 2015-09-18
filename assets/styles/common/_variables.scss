@@ -6,4 +6,25 @@ $main-sm-columns:       12;
 $sidebar-sm-columns:    4;
 
 // Colors
-$brand-primary:         #27ae60;
+
+
+
+
+$white: #ffffff;
+
+
+
+$green: #519715;
+$charcoal: #314443;
+$blue: #05bfbf;
+$orange: #ff932b;
+$red: #e14639;
+$dark-green: #266807;
+
+$primary:$green;
+$text-color: $charcoal;
+$info: $blue;
+$warning: $orange;
+$error: $red;
+
+$brand-primary:         $green;
