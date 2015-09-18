@@ -31,3 +31,10 @@ function excerpt_more() {
   return ' &hellip; <a href="' . get_permalink() . '">' . __('Continued', 'sage') . '</a>';
 }
 add_filter('excerpt_more', __NAMESPACE__ . '\\excerpt_more');
+
+function remove_wc_sidebar(){
+
+  remove_action( 'woocommerce_sidebar', 'woocommerce_get_sidebar', 10 );
+
+}
+add_action('woocommerce_before_main_content', __NAMESPACE__ . '\\remove_wc_sidebar' );
