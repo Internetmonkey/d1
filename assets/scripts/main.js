@@ -74,4 +74,19 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+  // TRIGGER ACTIVE STATE
+  $('#mobnav-btn').click(
+
+    function() {
+      $('.navbar-nav').toggleClass("xactive");
+    });
+
+  // TRIGGER DROP DOWN SUBS
+  $('.mobnav-subarrow').click(
+
+    function() {
+      $(this).parent().toggleClass("xpopdrop");
+    });
+  
+
 })(jQuery); // Fully reference jQuery after this point.

@@ -1,0 +1,92 @@
+.banner {
+	background: $green;
+	color: $white;
+	text-align: center;
+	width: 100%;
+	top:0;
+	a {
+		color: $white;
+	}
+}
+.brand {
+	display: inline-block;
+	width: 300px;
+	height: 90px;
+	background-image: url(../../assets/images/balsa-central-full-white.svg);
+}
+
+.secondary-navigation {
+	display: none;
+	@include breakpoint(sm) {
+		display: inline-block;
+	}
+}
+.navbar-collapse {
+	padding:0;
+	box-shadow: none;
+}
+.navbar-nav {
+	margin:0;
+	padding:0;
+}
+
+
+// #mobnav-btn {
+//   display: none;
+//   color: white;
+//   padding: 10px;
+//   cursor: pointer;
+// }
+.mobnav-subarrow {
+  display: none;
+  color: white;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+@include breakpoint(xs) {
+  // #mobnav-btn {
+  //   display: block;
+  //   background: $mid-grey;
+  //   color: $white;
+  // }
+  .mobnav-subarrow {
+    display: block;
+    background: $charcoal;
+    color: $white;
+    border:none;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+  }
+  .navbar-nav {
+    width: 100%!important;
+    // display: none;
+    li {
+    	float: none!important;
+	    display: block!important;
+	    width: 100%!important;
+	    a {
+	    	float: none!important;
+	    }
+    }
+    ul {
+    	position: static!important;
+    	display: none!important;
+    }
+    &.xactive {
+    	display: block!important;
+    }
+  }
+  
+  .xpopdrop ul {
+    display: block!important;
+    width: 100%;
+  }
+}
