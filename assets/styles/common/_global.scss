@@ -17,7 +17,7 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.4;
-    background: url(../../assets/images/graph.png) center center repeat;
+    background: url(../images/graph.png) center center repeat;
     text-rendering: geometricPrecision;
 }
 
@@ -33,7 +33,7 @@ body {
 		margin-top: 150px;
 	}
     .home & {
-        background: url(../../assets/images/graph-lighter.png) center center repeat;
+        background: url(../images/graph-lighter.png) center center repeat;
     }
 }
 .content {
