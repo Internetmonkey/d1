@@ -23,12 +23,13 @@
     	box-shadow:inset 1px 1px 0 0 rgba(0,0,0,.3);
     }
     &.btn-default {
-    	border: 2px solid $green;
+    	/* border: 2px solid $green; */
     	color: $dark-green;
     	background: $white;
     	&:hover, &:focus {
     		color: $white;
     		background: $green;
+    		border-color: $green;
     	}
     }
     &.btn-primary {
@@ -66,4 +67,8 @@
         }
     }
     
+}
+
+.button {
+	@extend .btn;
 }

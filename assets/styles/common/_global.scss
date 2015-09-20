@@ -6,6 +6,7 @@ body {
 	font-weight: 300;
 	font-size: 16px;
 	line-height: 1.4;
+    background: url(../../assets/images/graph.png) center center repeat;
 }
 
 .wrap {
@@ -14,6 +15,8 @@ body {
 	margin: 0 auto;
 	position: relative;
 	margin-top: 60px;
+    background: url(../../assets/images/graph-lighter.png) center center repeat;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,.05);
 	@include breakpoint(sm) {
 		margin-top: 150px;
 	}
@@ -46,21 +49,21 @@ h1, .h1 {
     }
 }
 h2, .h2 {
-    font-size: 2.4em;
+    font-size: 2em;
     line-height: 1.2;
     text-transform: uppercase;
     color: $dark-green;
     margin: 15px 0;
     letter-spacing: 0.1em;
     @include breakpoint(sm) {
-        font-size: 2.8em;
+        font-size: 2.1em;
         margin: 20px 0;
     }
     @include breakpoint(md) {
-        font-size: 3.4em;
+        font-size: 2.3em;
     }
     @include breakpoint(lg) {
-        font-size: 3.8em;
+        font-size: 2.5em;
     }
    
 }
@@ -84,10 +87,10 @@ h3, .h3 {
 }
 
 h4, .h4 {
-    font-size: 1.5em;
+    font-size: 1.3em;
     margin: 15px 0;
     @include breakpoint(sm) {
-        font-size: 1.75em;
+        font-size: 1.5em;
         margin: 20px 0;
     }
 
