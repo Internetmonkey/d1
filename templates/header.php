@@ -40,10 +40,10 @@
         <div class="col-xs-2 col-sm-4">
           <div class="cart-toggle"><i class="fa fa-shopping-cart"></i></div>
           <ul class="site-header-cart menu">
-      <li class="">
-        
-        <a class="cart-contents" href="http://dev-bc.pantheon.io/cart/" title="View your shopping cart">
-        <i class="fa fa-shopping-cart"></i> $0.00 <span class="count">0 items</span>
+      <li class="cart-summary">
+        <a class="cart-contents" href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" title="<?php _e( 'View your shopping cart', 'storefront' ); ?>">
+        <i class="fa fa-shopping-cart"></i><?php echo wp_kses_data( WC()->cart->get_cart_subtotal() ); ?> <span class="count"><?php echo wp_kses_data( sprintf( _n( '%d item', '%d items', WC()->cart->get_cart_contents_count(), 'storefront' ), WC()->cart->get_cart_contents_count() ) );?></span>
+      </a>
       </a>
     
           </li>
