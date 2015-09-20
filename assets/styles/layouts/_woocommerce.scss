@@ -24,9 +24,78 @@
 			}
 
 	ul.products {
+		@extend .row;
 		li.product {
-			background: $white;
-			box-shadow: 1px 1px 0 0 rgba(0,0,0,.3);
+			
+			@extend .col-xs-6;
+			@extend .col-sm-4;
+			@extend .col-md-3;
+			.product-grid-item-wrap {
+				display: block;
+				position: relative;
+				background: $white;
+				box-shadow: 2px 2px 5px 0 rgba(0,0,0,.2);
+				text-align: center;
+				padding: 0 0 15px 0;
+				a:first-child {
+					position: relative;
+					display: block;
+
+					h3 {
+						position: absolute;
+						min-height: 40px;
+						bottom:50px;
+						left:0;
+						right:0;
+						padding: 10px;
+						background: rgba($dark-green, 0.75);
+						color: $white;
+						line-height: 1.1;
+						width: 100%;
+						@include breakpoint(md) {
+							bottom:80px;
+						}
+					}
+					img {
+						margin:0;
+					}
+				}
+				p.price, span.price {
+						height: 50px;
+	 			color: $text-color;
+	 			font-weight: 400;
+	 			padding: 10px;
+	 			@include breakpoint(md) {
+	 				height: 80px;
+	 			}
+	 			del, ins {
+
+	 				font-family: $sans;
+	 				text-transform: uppercase;
+	 				font-size: 1.2em;
+	 				letter-spacing: 0.05em;
+	 				font-weight: 400;
+	 				display: inline-block;
+	 				vertical-align: middle;
+	 				@include breakpoint(md) {
+	 					display: block;
+	 					font-size: 1.3em;
+	 				}
+	 			}
+	 			del {
+	 				color: $orange;
+	 				opacity: 1;
+	 			}
+	 			ins {
+	 				text-decoration: none;
+	 				@include breakpoint(md) {
+	 					font-size: 1.6em;
+	 				}
+	 				
+	 			}
+	 		}
+				
+			}
 			.onsale {
 				width: 100%;
 				top:0;
@@ -69,21 +138,24 @@
 	 div.product {
 	 	p.price, span.price {
 	 			color: $text-color;
+	 			font-weight: 400;
 	 			del {
 	 				color: $orange;
 	 				opacity: 1;
 	 				font-family: $sans;
 	 				text-transform: uppercase;
-	 				font-size: 1.5em;
+	 				font-size: 1.2em;
 	 				letter-spacing: 0.05em;
+	 				font-weight: 400;
 	 			}
 	 			ins {
 	 				text-decoration: none;
 	 				font-family: $sans;
 	 				text-transform: uppercase;
-	 				font-size: 1.5em;
+	 				font-size: 1.8em;
 	 				letter-spacing: 0.05em;
 	 				display: block;
+	 				font-weight: 400;
 	 			}
 	 		}
 	 	form.cart {

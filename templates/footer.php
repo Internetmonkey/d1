@@ -1,5 +1,5 @@
 <!-- Market category portals -->
-	<section class="page-section wow flipInX" id="market">
+	<section class="page-section wow fadeIn" id="market">
 		<div class="container text-center">
 			<hr class="stripe" />
 			<h3>Choose your application, hobby sector or industry now</h3>
@@ -26,7 +26,7 @@
 		</div>
 
 	</section>
-	
+
 <footer class="content-info" role="contentinfo">
 
   <!-- <div class="container">
