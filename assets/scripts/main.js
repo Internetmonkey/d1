@@ -28,7 +28,7 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
-        $('.sector-toggle').dropdown();
+        
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -75,7 +75,8 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
-
+  // Drop down menu for Industry sector selection
+  $('.sector-toggle').dropdown();
 
 
   // TRIGGER ACTIVE STATE

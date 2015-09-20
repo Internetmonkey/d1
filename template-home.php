@@ -52,6 +52,7 @@
 	<!-- Market category portals -->
 	<section class="page-section wow flipInX" id="market">
 		<div class="container text-center">
+			<hr class="stripe" />
 			<h3>Choose your application, hobby sector or industry now</h3>
 			<p>It'd be good to explain this a little bit more here.</p>
 			<div class="btn-row">
@@ -72,7 +73,9 @@
 				  </ul>
 				</div>
 			</div>
+			<hr class="stripe" />
 		</div>
+
 	</section>
 
 	<!-- Featured products -->
@@ -81,7 +84,7 @@
 
 	<!-- Content blocks for interest -->
 
-	<section >
+	<section class="page-section">
 		
 
 		<div class="block-grid">

@@ -12,6 +12,7 @@
     border: none;
     box-shadow: 1px 1px 0 0 rgba(0,0,0,.3);
     transition: all .1s ease;
+    height: 44px;
     @include breakpoint(xs) {
     	margin: 5px  5px 5px 0;
     }
@@ -26,6 +27,7 @@
     	/* border: 2px solid $green; */
     	color: $dark-green;
     	background: $white;
+    	border: 2px solid $gray-lighter;
     	&:hover, &:focus {
     		color: $white;
     		background: $green;

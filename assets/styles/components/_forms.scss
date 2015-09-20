@@ -13,3 +13,7 @@
 .input-text {
 	@extend .form-control;
 }
+.label {
+	color: $text-color;
+	font-size: 1em;
+}

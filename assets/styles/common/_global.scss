@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	line-height: 1.4;
     background: url(../../assets/images/graph.png) center center repeat;
-    text-rendering: optimizeLegibility;
+    text-rendering: geometricPrecision;
 }
 
 .wrap {
@@ -133,3 +133,12 @@ a {
     }
 }
 
+hr {
+    &.stripe {
+        border-top: 2px solid $green;
+        margin: 15px 0;
+        @include breakpoint(md) {
+            margin: 30px;
+        }
+    }
+}

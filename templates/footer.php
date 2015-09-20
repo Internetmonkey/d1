@@ -1,3 +1,32 @@
+<!-- Market category portals -->
+	<section class="page-section wow flipInX" id="market">
+		<div class="container text-center">
+			<hr class="stripe" />
+			<h3>Choose your application, hobby sector or industry now</h3>
+			<p>It'd be good to explain this a little bit more here.</p>
+			<div class="btn-row">
+				<a href="" class="btn btn-default">Aeromodel</a> 
+				<a href="" class="btn btn-default">Craft</a> 
+				<a href="" class="btn btn-default">Stage, Set & Film</a> 
+				
+
+				<div class="dropdown dropdown-inline">
+				  <button id="dLabel" class="btn btn-default sector-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    More options...
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dLabel">
+				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Market sector example</a></li>
+				  </ul>
+				</div>
+			</div>
+			<hr class="stripe" />
+		</div>
+
+	</section>
+	
 <footer class="content-info" role="contentinfo">
 
   <!-- <div class="container">
