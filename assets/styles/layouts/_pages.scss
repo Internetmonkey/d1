@@ -17,4 +17,11 @@
 			margin-top: 0;
 		}
 	}
+	&#market {
+		background: $white;
+		padding: 20px 0;
+		@include breakpoint(sm) {
+			padding: 40px 0;
+		}
+	}
 }
