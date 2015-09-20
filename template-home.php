@@ -99,8 +99,8 @@
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
 					<a class="grid-link green" href="">
-					<h3 class="headline">A huge range of high quaility Balsa</h3>
-					<p class="lead">When it comes to sizes, densities and prices we've got the other guys beat. Click to see the range!</p>
+					<h3 class="headline">Australia's Best Quality Balsa Wood</h3>
+					<p class="lead">The largest range in Australia, delivered on-demand straight to your door. Start Shopping Today</p>
 					</a>
 				</div>
 			</div>
@@ -131,7 +131,7 @@
 				<div class="grid-content-wrapper text-center">
 					<a class="grid-link green" href="">
 					<h3 class="headline">We always have stock</h3>
-					<p class="lead">We're Australia's largest supplier of Balsa Wood</p>
+					<p class="lead">We're Australia's largest supplier of Balsa Wood. No Matter the project, we can handle it.</p>
 					</a>
 				</div>
 			</div>
@@ -150,70 +150,6 @@
 			</div>
 		</div><!-- /.container -->
 	</section>
-
-
-	<section class="page-section wow fadeIn">
-<div class="container">
-	<div class="row" role="main">
-	
-		<div class="headline-container col-sm-5 col-lg-4">
-			<h3 class="h1 headline">Headline to sit alongside paragraphs</h3>
-		</div>
-	
-		<div class="post-content double-column col-sm-7 col-lg-8">
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-		<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-		<p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?"</p>
-		</div>
-	</div>
-</div>
-</section>
-
-
-
-<section class="page-section content-block wow fadeIn">
-<div class="container">
-	<div class="row" role="main">
-	
-		<div class="headline-container col-sm-7">
-			<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="" class="img-responsive">
-		</div>
-	
-		<div class="post-content col-sm-5">
-			<h3>Headline to sit alongside paragraphs</h3>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-		<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-		
-		</div>
-
-		
-	</div>
-
-	
-</div>
-</section>
-
-<section class="page-section content-block wow fadeIn">
-<div class="container">
-	<div class="row" role="main">
-	
-		<div class="headline-container col-sm-7 col-sm-push-5">
-			<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="" class="img-responsive">
-		</div>
-	
-		<div class="post-content col-sm-5 col-sm-pull-7">
-			<h3>Headline to sit alongside paragraphs</h3>
-		<p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-		<p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-		
-		</div>
-
-		
-	</div>
-
-	
-</div>
-</section>
 
 
 </main>

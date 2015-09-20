@@ -62,26 +62,11 @@
   	<div class="row">
   		<div class="col-sm-6 col-md-3">
   			<h4>Pages</h4>
-  			<nav>
-  			<ul>
-  				<li><a href="">Page link</a></li>
-
-  				<li><a href="">Page link</a></li>
-  				<li><a href="">Page link</a></li>
-  				<li><a href="">Page link</a></li>
-  			</ul>
-  		</nav>
+  			<?php dynamic_sidebar('sidebar-footer-col-1'); ?>
   		</div>
   		<div class="col-sm-6 col-md-3">
   			<h4>Products</h4>
-  			<nav>
-  			<ul>
-  				<li><a href="">Popular product link</a></li>
-				<li><a href="">Popular product link</a></li>
-				<li><a href="">Popular product link</a></li>
-				<li><a href="">Popular product link</a></li>
-  			</ul>
-  			</nav>
+  			<?php dynamic_sidebar('sidebar-footer-col-2'); ?>
   		</div>
   		<div class="col-sm-12 col-md-6">
   			<div class="footer-contact">
