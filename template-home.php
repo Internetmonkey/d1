@@ -79,7 +79,16 @@
 	<!-- Content blocks for interest -->
 
 	<section class="tiles">
-		<div></div>
+		<div class="tile-row">
+			<div class="tile img-container">
+				<img src="" alt=""></div>
+			<div class="tile table-box">
+				<div class="table-cell-box">
+					<h3>Headline, possibly about the educational products.</h3>
+					<p>This text will be vertically centered next to an image</p>
+				</div>
+			</div>
+		</div>
 	</section>
 
 	<!-- Product categories -->
