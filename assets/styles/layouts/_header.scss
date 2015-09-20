@@ -33,6 +33,12 @@
         height: 90px;
 
       }
+      @include breakpoint(lg) {
+        width: 360px;
+        height: 106px;
+        background-size: 360px 284px;
+
+      }
     }
   }
   &.affix {
@@ -88,7 +94,10 @@
     float: none;
     display: inline-block;
     vertical-align: top;
-    border-bottom: 1px solid lighten($dark-green, 5%);
+    
+    @include breakpoint(xs) {
+      border-bottom: 1px solid lighten($dark-green, 5%);
+    }
     >a {
       font-size: 1.3em;
       font-family: $sans;

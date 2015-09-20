@@ -28,6 +28,7 @@
     'home': {
       init: function() {
         // JavaScript to be fired on the home page
+        $('.sector-toggle').dropdown();
       },
       finalize: function() {
         // JavaScript to be fired on the home page, after the init JS
@@ -87,6 +88,17 @@
     function() {
       $(this).parent().toggleClass("xpopdrop");
     });
+
+
+  // Initialise wow
+  wow = new WOW({
+    boxClass:     'wow',      // default
+    animateClass: 'animated', // default
+    offset:       0,          // default
+    mobile:       false,       // default
+    live:         true        // default
+  });
+  wow.init();
   
 
 })(jQuery); // Fully reference jQuery after this point.

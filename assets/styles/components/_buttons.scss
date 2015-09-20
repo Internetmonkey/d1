@@ -1,0 +1,66 @@
+.btn {
+    
+    padding: 10px 20px;
+    display: inline-block;
+    vertical-align: middle;
+    border-radius: 5px;
+    font-family: $sans;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    margin: 0;
+    font-size: 1.2em;
+    border: none;
+    box-shadow: 1px 1px 0 0 rgba(0,0,0,.3);
+    transition: all .1s ease;
+    &:hover, &:focus {
+       text-decoration: none;
+       color: $white;
+    }
+    &:focus {
+    	box-shadow:inset 1px 1px 0 0 rgba(0,0,0,.3);
+    }
+    &.btn-default {
+    	border: 2px solid $green;
+    	color: $dark-green;
+    	background: $white;
+    	&:hover, &:focus {
+    		color: $white;
+    		background: $green;
+    	}
+    }
+    &.btn-primary {
+    	background: $primary;
+    	color: $white;
+    	&:hover, &:focus {
+	       
+	       background: $dark-green;
+	       border-color: $dark-green;
+	       
+	    }
+    }
+    &.btn-info {
+        background: $info;
+        color: $white;
+        &:hover, &:focus {
+           background: darken($info, 10%);
+           border-color: darken($info, 10%); 
+        }
+    }
+    &.btn-warning {
+        background: $warning;
+        color: $white;
+        &:hover, &:focus {
+           background: darken($warning, 10%); 
+           border-color: darken($warning, 10%);
+        }
+    }
+    &.btn-error {
+        background: $error;
+        color: $white;
+        &:hover, &:focus {
+           background: darken($error, 10%); 
+           border-color: darken($error, 10%); 
+        }
+    }
+    
+}

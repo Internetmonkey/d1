@@ -1,0 +1,54 @@
+.hero-container {
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	position: relative;
+	@include breakpoint(xs) {
+		background: none !important;
+	}
+	@include breakpoint(sm) {
+		color: $white;
+	}
+	.table-box {
+		
+		
+		@include breakpoint(sm) {
+			padding: 2em 0;
+			background-color: rgba($dark-green, 0.8);
+		}
+		@include breakpoint(md) {
+			padding: 4em 0;
+		}
+	}
+	.hero-text {
+		h1, p {
+			@include breakpoint(sm) {
+				color: $white;
+			}
+		}
+		
+	}
+}
+.hero-image {
+	display: none;
+    @include breakpoint(sm) {
+    	position: absolute;
+	    top: 0;
+	    right: 0;
+	    width: 50%;
+    	display: block;
+    }
+    img {
+    	max-width: 100%;
+    	height: auto;
+    }
+}
+
+.dropdown-inline {
+	display: inline-block;
+	vertical-align: middle;
+}
+.dropdown-menu {
+	font-size: 1em;
+}
+

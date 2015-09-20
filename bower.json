@@ -10,7 +10,8 @@
     "bootstrap-hover-dropdown": "~2.1.3",
     "bootstrap-sass": "3.3.5",
     "font-awesome": "~4.4.0",
-    "modernizr": "2.8.2"
+    "modernizr": "2.8.2",
+    "wow": "~1.1.2"
   },
   "overrides": {
     "modernizr": {
