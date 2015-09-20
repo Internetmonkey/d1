@@ -1,0 +1,26 @@
+.woocommerce {
+	ul.products {
+		li.product {
+			.onsale {
+				width: 100%;
+				top:0;
+				left:0;
+				right: 0;
+				
+			}
+		} 
+	}
+	span.onsale {
+		border-radius:0;
+		background-color: $orange;
+		font-family: $sans;
+		font-size: 1.2em;
+		letter-spacing: 0.05em;
+		text-transform: uppercase;
+		min-height: 1px;
+		height: auto;
+		line-height: 1;
+		padding: 10px;
+		margin: 0;
+	}
+} 
