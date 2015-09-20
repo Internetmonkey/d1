@@ -96,11 +96,11 @@ h4, .h4 {
 
 }
 h5, .h5 {
-    font-size: 1.2em;
+    font-size: 1em;
     margin: 15px 0 5px;
     font-weight: bold;
     @include breakpoint(sm) {
-        font-size: 1.3em;
+        font-size: 1.1em;
         margin: 20px 0 5px;
     }
 

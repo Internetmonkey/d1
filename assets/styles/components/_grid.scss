@@ -11,6 +11,15 @@
 
 .main {
 	@extend .container;
+	.woocommerce-account & {
+		max-width: 500px;
+	}
+	.single-product & {
+		padding-top: 40px;
+		@include breakpoint(sm) {
+			padding-top: 60px;
+		}
+	}
 }
 
 .table-box {
