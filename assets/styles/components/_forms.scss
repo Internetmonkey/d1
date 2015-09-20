@@ -1,0 +1,15 @@
+.form-control {
+	border: 2px solid $gray-lighter;
+	height: 44px;
+	padding: 10px 15px;
+	box-shadow: none;
+	&:focus {
+		border-color: $green;
+		box-shadow: none;
+		outline: none;
+	}
+}
+
+.input-text {
+	@extend .form-control;
+}
