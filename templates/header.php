@@ -18,14 +18,18 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-2 col-md-4">
+        <div class="col-xs-2 col-sm-4">
           <nav class="secondary-navigation" role="navigation" aria-label="Secondary Navigation">
       <div class="menu-top-menu-container">
         <ul id="menu-top-menu" class="menu">
           <li><a href="">FAQ</a></li>
           <li><a href="">T &amp; C</a></li>
-          <li><a href="">My Account</a></li>
-          <li><a href="">Store</a></li>
+          <li> <?php if ( is_user_logged_in() ) : ?>
+            <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a>
+              <?php else : ?>
+            <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login / Register','woothemes'); ?>"><?php _e('Login / Register','woothemes'); ?></a>
+              <?php endif; ?>
+            </li>
         </ul>
       </div>
     </nav>
