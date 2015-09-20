@@ -9,7 +9,7 @@
 
 
 <header>
-  <div class="hero-container" style="background-image:url(<?php bloginfo('template_directory'); ?>/assets/images/balsa-cover-image.jpg);">
+  <div class="hero-container" style="background-image:url(<?php bloginfo('template_directory'); ?>/dist/images/balsa-cover-image.jpg);">
   	
   		<div class="table-box">
   			
@@ -43,7 +43,7 @@
   	</div>
   	<div class="hero-image visible-md visible-lg wow fadeInRight">
   		
-  				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/assets/images/balsa_sheets.png" alt="">
+  				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/balsa_sheets.png" alt="">
 
   			</div>
   </div>
@@ -92,7 +92,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
@@ -107,7 +107,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
@@ -123,7 +123,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
@@ -138,7 +138,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
@@ -154,7 +154,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
@@ -205,7 +205,7 @@
 	<div class="row" role="main">
 	
 		<div class="headline-container col-sm-7">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="" class="img-responsive">
+			<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="" class="img-responsive">
 		</div>
 	
 		<div class="post-content col-sm-5">
@@ -227,7 +227,7 @@
 	<div class="row" role="main">
 	
 		<div class="headline-container col-sm-7 col-sm-push-5">
-			<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="" class="img-responsive">
+			<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="" class="img-responsive">
 		</div>
 	
 		<div class="post-content col-sm-5 col-sm-pull-7">
