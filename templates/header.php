@@ -18,7 +18,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-2 col-sm-4">
+        <div class="col-xs-2 col-md-4">
           <nav class="secondary-navigation" role="navigation" aria-label="Secondary Navigation">
       <div class="menu-top-menu-container">
         <ul id="menu-top-menu" class="menu">
