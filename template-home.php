@@ -98,9 +98,9 @@
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a class="grid-link orange" href="">
-					<h3 class="headline">The exact Balsa Wood you need, delivered to your door</h3>
-					<p class="lead">Why run to 3 different stores trying to find the right materials? Spend time creating not hunting for supplies!</p>
+					<a class="grid-link green" href="">
+					<h3 class="headline">A huge range of high quaility Balsa</h3>
+					<p class="lead">When it comes to sizes, densities and prices we've got the other guys beat. Click to see the range!</p>
 					</a>
 				</div>
 			</div>
@@ -108,38 +108,7 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
-				</a>
-			</div>
-			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
-				<div class="grid-content-wrapper text-center">
-					<a href="" class="grid-link green">
-					<h3 class="headline">Headline, possibly about the educational products.</h3>
-					<p class="lead">Or we could do it this way, where it's just the button that's a link.</p>
-					
-				</a>
-				</div>
-			</div>
-		</div><!-- /.row -->
-		<div class="row wow fadeIn">
-			<div class="grid-image grid-left col-sm-6 grid-match">
-				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
-				</a>
-			</div>
-			<div class="grid-content grid-right col-sm-6 grid-match">
-				<div class="grid-content-wrapper text-center">
-					<a class="grid-link blue" href="">
-					<h3 class="headline">Headline, possibly about the educational products.</h3>
-					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
-					</a>
-				</div>
-			</div>
-		</div><!-- /.row -->
-		<div class="row wow fadeIn">
-			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
-				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/storefront-1.jpg" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/storefront-1.jpg" alt="The balsa central storefornt is well stocked">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
@@ -155,14 +124,14 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/balsacentral-warehouse-stock.jpg"  alt="Several large pallets of Balsa Wood">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a class="grid-link red" href="">
-					<h3 class="headline">Headline, possibly about the educational products.</h3>
-					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					<a class="grid-link green" href="">
+					<h3 class="headline">We always have stock</h3>
+					<p class="lead">We're Australia's largest supplier of Balsa Wood</p>
 					</a>
 				</div>
 			</div>
@@ -176,6 +145,7 @@
 	<section class="page-section featured-products wow fadeIn">
 		<div class="container">
 			<div class="row">
+				<h3 class="headline">Our best sellers</h3>
 				<?php echo do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
 			</div>
 		</div><!-- /.container -->
