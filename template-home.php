@@ -129,12 +129,14 @@
 	</section>
 
 	<!-- Product categories -->
+	<section class="page-section featured-products">
+		<div class="container">
+			<div class="row">
+				<?php echo do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
+			</div>
+		</div><!-- /.container -->
+	</section>
 
-
-
-
-
-	<?php get_template_part('templates/content', 'page'); ?>
 
 </main>
 
