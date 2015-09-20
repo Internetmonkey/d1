@@ -93,14 +93,14 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/mixed-balsa-wood-shapes.jpg"  alt="A selection of Balsa Wood Shapes including Dowels, Sticks and Blocks">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
 					<a class="grid-link orange" href="">
-					<h3 class="headline">Headline, possibly about the educational products.</h3>
-					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					<h3 class="headline">The exact Balsa Wood you need, delivered to your door</h3>
+					<p class="lead">Why run to 3 different stores trying to find the right materials? Spend time creating not hunting for supplies!</p>
 					</a>
 				</div>
 			</div>
@@ -139,15 +139,15 @@
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
 				<a href="">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/storefront-1.jpg" alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
 				<div class="grid-content-wrapper text-center">
 					<div class="grid-link">
-					<h3 class="headline">Headline, possibly about the educational products.</h3>
-					<p class="lead">Or we could do it this way, where it's just the button that's a link.</p>
-					<p><a href="" class="btn btn-primary">I'm a link!</a> <a href="" class="btn btn-primary">Another link!</a></p>
+					<h3 class="headline">We're local too</h3>
+					<p class="lead">Balsa Central is located in Melrose Park, South Australia. We welcome walk in business, phone orders etc. Talk to real people!</p>
+					<p><a href="" class="btn btn-primary">Our Location</a> <a href="" class="btn btn-primary">Offline Orders</a></p>
 				</div>
 				</div>
 			</div>
