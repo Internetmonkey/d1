@@ -48,6 +48,8 @@ $classes[] = 'col-md-3';
 ?>
 <li <?php post_class( $classes ); ?>>
 
+<div class="product-grid-item-wrap">
+
 	<?php do_action( 'woocommerce_before_shop_loop_item' ); ?>
 
 	<a href="<?php the_permalink(); ?>">
@@ -89,5 +91,7 @@ $classes[] = 'col-md-3';
 		do_action( 'woocommerce_after_shop_loop_item' );
 
 	?>
+
+</div>
 
 </li>
