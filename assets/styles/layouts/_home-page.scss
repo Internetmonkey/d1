@@ -15,6 +15,7 @@
 		@include breakpoint(sm) {
 			padding: 2em 0;
 			background-color: rgba($brown, 0.3);
+			
 		}
 		@include breakpoint(md) {
 			padding: 4em 0;
