@@ -38,3 +38,16 @@ function remove_wc_sidebar(){
 
 }
 add_action('woocommerce_before_main_content', __NAMESPACE__ . '\\remove_wc_sidebar' );
+
+function add_to_cart_text($default, $product) {
+  $type = $product->product_type;
+
+  if ( !$type || $type !== 'variable' ) {
+    return $default;
+  }
+
+  return __('Select Size', 'woocommerce');
+
+}
+
+add_filter('woocommerce_product_add_to_cart_text', __NAMESPACE__ .'\\add_to_cart_text', 20, 2);
