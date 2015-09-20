@@ -18,6 +18,12 @@
     "modernizr": {
       "main": "./modernizr.js"
     },
+    "font-awesome": {
+          "main": [
+              "./css/font-awesome.css",
+              "./fonts/*"
+          ]
+      },
     "bootstrap-sass": {
       "main": [
         "./assets/stylesheets/_bootstrap.scss",
