@@ -20,16 +20,14 @@
   								<div class="col-md-6">
   						<h1>Australia's #1 Choice for Balsa Wood</h1>
 
-<p class="lead">Our Balsa is simply better - completely free of any bleaches or harmful chemical processes to 'whitewash' the wood. Our select Balsa is naturally cleaner, making it not only safer to work with, but also better for the environment.</p>
-
 <ul>
-	<li>100% Plantation Grown Balsa</li>
-<li>No Harmful Bleaches or Chemicals</li>
-<li>Machined & Finished with pride in Australia</li>
+	<li>The best balsa, in the sizes you need</li>
+	<li>Fast Turnaround and Shipping times</li>
+	<li>No Harmful bleaches or chemicals</li>
 </ul>
 
-<p>Learn more <a href="">about</a> the Balsa Central difference</p>
-<p><a href="" class="btn btn-warning">More details &rarr;</a> <a href="" class="btn btn-primary">Select options</a>
+<p>Machined and Finished with passion in South Australia. </p>
+<p><a href="" class="btn btn-warning">Learn More</a> <a href="" class="btn btn-primary">Shop Now &rarr;</a>
   					</p>
   				</div>
   			</div>
@@ -54,7 +52,7 @@
 		<div class="container text-center">
 			<hr class="stripe" />
 			<h3>Choose your application, hobby sector or industry now</h3>
-			<p>It'd be good to explain this a little bit more here.</p>
+			<p>Find products, guides and helpful information exclusive to your niche!</p>
 			<div class="btn-row">
 				<a href="" class="btn btn-default">Aeromodel</a> 
 				<a href="" class="btn btn-default">Craft</a> 
@@ -67,9 +65,12 @@
 				    <span class="caret"></span>
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dLabel">
-				    <li><a href="">Market sector example</a></li>
-				    <li><a href="">Market sector example</a></li>
-				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Education - Students</a></li>
+				    <li><a href="">Education - Teachers</a></li>
+				    <li><a href="">Promotional Products</a></li>
+				    <li><a href="">Architecture Models</a></li>
+				    <li><a href="">Surfboards & SUPs</a></li>
+				    <li><a href="">Fibreglassing & Industrial</a></li>
 				  </ul>
 				</div>
 			</div>

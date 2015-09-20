@@ -3,7 +3,7 @@
 		<div class="container text-center">
 			<hr class="stripe" />
 			<h3>Choose your application, hobby sector or industry now</h3>
-			<p>It'd be good to explain this a little bit more here.</p>
+			<p>Find products, guides and helpful information exclusive to your niche!</p>
 			<div class="btn-row">
 				<a href="" class="btn btn-default">Aeromodel</a> 
 				<a href="" class="btn btn-default">Craft</a> 
@@ -16,15 +16,17 @@
 				    <span class="caret"></span>
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dLabel">
-				    <li><a href="">Market sector example</a></li>
-				    <li><a href="">Market sector example</a></li>
-				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Education - Students</a></li>
+				    <li><a href="">Education - Teachers</a></li>
+				    <li><a href="">Promotional Products</a></li>
+				    <li><a href="">Architecture Models</a></li>
+				    <li><a href="">Surfboards & SUPs</a></li>
+				    <li><a href="">Fibreglassing & Industrial</a></li>
 				  </ul>
 				</div>
 			</div>
 			<hr class="stripe" />
 		</div>
-
 	</section>
 
 <footer class="content-info" role="contentinfo">
@@ -36,7 +38,7 @@
   <aside class="signup-blade">
 
 <div class="container">
-  	<h4>Headline about registering for updates</h4>
+  	<h4>Join our mailing list for great deals, useful tips and inspiring projects!</h4>
 
   	<form class="form-inline text-center">
   		<div class="form-group">
