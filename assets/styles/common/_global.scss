@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	line-height: 1.4;
     background: url(../../assets/images/graph.png) center center repeat;
-    text-rendering: geometricPrecision;
+    text-rendering: optimizeLegibility;
 }
 
 .wrap {
@@ -16,11 +16,14 @@ body {
 	margin: 0 auto;
 	position: relative;
 	margin-top: 60px;
-    background: url(../../assets/images/graph-lighter.png) center center repeat;
+    background: $white;
     box-shadow: 0 0 5px 3px rgba(0,0,0,.05);
 	@include breakpoint(sm) {
 		margin-top: 150px;
 	}
+    .home & {
+        background: url(../../assets/images/graph-lighter.png) center center repeat;
+    }
 }
 .content {
 	width: 100%;
