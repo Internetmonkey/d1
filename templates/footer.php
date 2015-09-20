@@ -61,11 +61,9 @@
 
   	<div class="row">
   		<div class="col-sm-6 col-md-3">
-  			<h4>Pages</h4>
   			<?php dynamic_sidebar('sidebar-footer-col-1'); ?>
   		</div>
   		<div class="col-sm-6 col-md-3">
-  			<h4>Products</h4>
   			<?php dynamic_sidebar('sidebar-footer-col-2'); ?>
   		</div>
   		<div class="col-sm-12 col-md-6">
