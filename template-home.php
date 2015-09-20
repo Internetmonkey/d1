@@ -78,6 +78,10 @@
 
 	<!-- Content blocks for interest -->
 
+	<section class="tiles">
+		<div></div>
+	</section>
+
 	<!-- Product categories -->
 
 

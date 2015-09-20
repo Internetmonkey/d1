@@ -33,12 +33,12 @@
         height: 90px;
 
       }
-      @include breakpoint(lg) {
+     /*  @include breakpoint(lg) {
         width: 360px;
         height: 106px;
         background-size: 360px 284px;
-
-      }
+        margin: 20px auto;
+      } */
     }
   }
   &.affix {
@@ -99,10 +99,15 @@
       border-bottom: 1px solid lighten($dark-green, 5%);
     }
     >a {
-      font-size: 1.3em;
+      font-size: 1.2em;
       font-family: $sans;
       text-transform: uppercase;
       letter-spacing: 0.1em;
+      padding: 10px 20px;
+      @include breakpoint(xs) {
+        padding: 12px 20px;
+        height: 45px;
+      }
       &:hover, &:focus {
         background: $dark-green;
       }
@@ -180,7 +185,7 @@
     background: $dark-green;
     color: $white;
     border:none;
-    height: 40px;
+    height: 45px;
     width: 50px;
     position: absolute;
     top: 0px;
