@@ -30,6 +30,8 @@
 			@extend .col-xs-6;
 			@extend .col-sm-4;
 			@extend .col-md-3;
+			margin: 0;
+			padding-bottom: 30px;
 			.product-grid-item-wrap {
 				display: block;
 				position: relative;
@@ -69,7 +71,44 @@
 	 				height: 80px;
 	 			}
 	 			del, ins {
-
+	 				display: inline-block;
+		 				vertical-align: middle;
+		 				@include breakpoint(md) {
+		 					display: block;
+		 				}
+	 				.amount {
+	 					font-family: $sans;
+		 				text-transform: uppercase;
+		 				font-size: 1.2em;
+		 				letter-spacing: 0.05em;
+		 				font-weight: 400;
+		 				
+		 				@include breakpoint(md) {
+		 					
+		 					font-size: 1.3em;
+		 				}
+	 				}
+	 				
+	 			}
+	 			del {
+	 				color: $orange;
+	 				opacity: 1;
+	 				.amount {
+	 					
+	 				}
+	 				
+	 			}
+	 			ins {
+	 				.amount {
+	 					text-decoration: none;
+	 				@include breakpoint(md) {
+	 					font-size: 1.6em;
+	 				}
+	 				}
+	 				
+	 				
+	 			}
+	 			.amount {
 	 				font-family: $sans;
 	 				text-transform: uppercase;
 	 				font-size: 1.2em;
@@ -78,20 +117,9 @@
 	 				display: inline-block;
 	 				vertical-align: middle;
 	 				@include breakpoint(md) {
-	 					display: block;
-	 					font-size: 1.3em;
-	 				}
-	 			}
-	 			del {
-	 				color: $orange;
-	 				opacity: 1;
-	 			}
-	 			ins {
-	 				text-decoration: none;
-	 				@include breakpoint(md) {
 	 					font-size: 1.6em;
 	 				}
-	 				
+
 	 			}
 	 		}
 				

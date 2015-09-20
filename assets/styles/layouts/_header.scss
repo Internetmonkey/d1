@@ -130,7 +130,7 @@
       border:none;
       
       @include breakpoint(sm) {
-        border: 2px solid $green;
+        border: 2px solid $dark-green;
         margin-top: 10px;
         min-width: 200px;
         left: 50%;
@@ -153,7 +153,7 @@
         }
         &:before {
           border-color: rgba(81, 151, 21, 0);
-          border-bottom-color: #519715;
+          border-bottom-color: $dark-green;
           border-width: 13px;
           margin-left: -13px;
         }
