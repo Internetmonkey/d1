@@ -221,7 +221,7 @@
   
   .mobnav-subarrow {
     display: block;
-    background: $dark-green;
+    background: darken($green, 5%);
     color: $white;
     border:none;
     height: 45px;

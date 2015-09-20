@@ -48,7 +48,7 @@
 </header>
 <main>
 	<!-- Market category portals -->
-	<section class="page-section wow fadeInUp" id="market">
+	<section class="page-section wow flipInX" id="market">
 		<div class="container text-center">
 			<h3>Choose your application, hobby sector or industry now</h3>
 			<div class="btn-row">
@@ -78,17 +78,54 @@
 
 	<!-- Content blocks for interest -->
 
-	<section class="tiles">
-		<div class="tile-row">
-			<div class="tile img-container">
-				<img src="" alt=""></div>
-			<div class="tile table-box">
-				<div class="table-cell-box">
-					<h3>Headline, possibly about the educational products.</h3>
-					<p>This text will be vertically centered next to an image</p>
+	<section >
+		
+
+		<div class="block-grid">
+	<div class="container">
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-left col-sm-6 grid-match">
+				<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="">
+			</div>
+			<div class="grid-content grid-right col-sm-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<a class="grid-link blue" href="">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					</a>
 				</div>
 			</div>
-		</div>
+		</div><!-- /.row -->
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
+				<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg" alt="">
+			</div>
+			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<div class="grid-link">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">Or we could do it this way, where it's just the button that's a link.</p>
+					<p><a href="" class="btn btn-info">I'm a link!</a></p>
+				</div>
+				</div>
+			</div>
+		</div><!-- /.row -->
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-left col-sm-6 grid-match">
+				<img src="<?php bloginfo('template_directory'); ?>/assets/images/placeholder.jpg"  alt="">
+			</div>
+			<div class="grid-content grid-right col-sm-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<a class="grid-link orange" href="">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					</a>
+				</div>
+			</div>
+		</div><!-- /.row -->
+	</div><!-- /.container -->
+</div><!-- /.block-grid -->
+
 	</section>
 
 	<!-- Product categories -->

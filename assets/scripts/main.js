@@ -75,6 +75,9 @@
   // Load Events
   $(document).ready(UTIL.loadEvents);
 
+
+
+
   // TRIGGER ACTIVE STATE
   $('#mobnav-btn').click(
 
@@ -88,6 +91,11 @@
     function() {
       $(this).parent().toggleClass("xpopdrop");
     });
+
+  // Match height of grid tiles
+  if ( $('.grid-match').length ) {
+      $('.grid-match').matchHeight();
+  }
 
 
   // Initialise wow
