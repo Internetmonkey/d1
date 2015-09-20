@@ -52,29 +52,32 @@
   			</ul>
   			</nav>
   		</div>
-  		<div class="col-sm-12 col-md-6 text-center">
+  		<div class="col-sm-12 col-md-6">
+  			<div class="footer-contact">
   			<p><a href="" class="brand-footer"><span class="sr-only">Balsa Central</span></a></p>
-  			<p>Contact us via…
-Email: sales (at) balsacentral.com – or use the enquiry form below
+  			<h5>Contact us via...</h5>
+  			<p>Phone: +61 8 8276 4482 or <a href="">Contact us</a></p>
 
-Phone: +61 8 8276 4482
 
-Fax: +61 8 8276 4133
 
-You can find us at…
-11 Emanuel Court, Melrose Park
-South Australia, Australia, 5039
+<h5>You can find us at...</h5>
+<p>11 Emanuel Court, Melrose Park, South Australia, Australia, 5039</p>
 
-Walk in customers are welcome during standard operating hours
+<!-- <p>Walk in customers are welcome during standard operating hours</p>
+ -->
+<h5>We are open from...</h5>
+<p>8:00am-5:00pm Australian Central Time, Monday to Friday
+– excluding Australian and South Australian Public Holidays</p>
 
-We are open from…
-8:00am-5:00pm Australian Central Time, Monday to Friday
-– excluding Australian and South Australian Public Holidays
-
-Australian Central Time (Adelaide) is GMT+9:30
+<hr />
+<p class="small text-center">&copy; Balsa Central</p>
+</div>
   		</div>
   	</div>
 
   </div>
 </section>
+
+
+
 </footer>

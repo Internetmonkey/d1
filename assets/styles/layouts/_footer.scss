@@ -1,6 +1,15 @@
 /* footer */.content-info {
 	background: $charcoal;
 	color: $white;
+	a {
+		color: lighten($charcoal, 30%);
+		&:hover {
+			color: $orange;
+		}
+	}
+	hr {
+		border-top: 1px solid lighten($charcoal, 10%);
+	}
 	
 }
 
@@ -60,5 +69,11 @@
       width: 200px;
       height: 40px;
       margin: 10px auto;
+}
+.footer-contact {
+	text-align: center;
+	p {
+		margin-top:0;
+	}
 }
 
