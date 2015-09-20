@@ -226,10 +226,17 @@
 		}
 	}
 
-	.site-header-cart {
-		li {
-			list-style: none;
-		}
-		
+}
+
+.site-header-cart {
+	
+	margin-top: 18px;
+
+	li {
+		list-style: none;
 	}
-} 
+	
+	.fa-shopping-cart {
+		padding-left: 8px;
+	}
+}

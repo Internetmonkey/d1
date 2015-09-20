@@ -27,7 +27,7 @@
 </ul>
 
 <p>Machined and Finished with passion in South Australia. </p>
-<p><a href="" class="btn btn-warning">Learn More</a> <a href="" class="btn btn-primary">Shop Now &rarr;</a>
+<p><a href="<?= site_url('/about-balsa/');?>" class="btn btn-warning">Learn More</a> <a href="<?= site_url('/shop/');?>" class="btn btn-primary">Shop Now &rarr;</a>
   					</p>
   				</div>
   			</div>
@@ -54,9 +54,9 @@
 			<h3>Choose your application, hobby sector or industry now</h3>
 			<p>Find products, guides and helpful information exclusive to your niche!</p>
 			<div class="btn-row">
-				<a href="" class="btn btn-default">Aeromodel</a> 
-				<a href="" class="btn btn-default">Craft</a> 
-				<a href="" class="btn btn-default">Stage, Set & Film</a> 
+				<a href="<?= site_url('/aeromodel/');?>" class="btn btn-default">Aeromodel</a> 
+				<a href="<?= site_url('/craft/');?>" class="btn btn-default">Craft</a> 
+				<a href="<?= site_url('/stage-set-building-film-theatre/');?>" class="btn btn-default">Stage, Set & Film</a> 
 				
 
 				<div class="dropdown dropdown-inline">
@@ -98,7 +98,7 @@
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a class="grid-link green" href="">
+					<a class="grid-link green" href="<?= site_url('/shop/');?>">
 					<h3 class="headline">Australia's Best Quality Balsa Wood</h3>
 					<p class="lead">The largest range in Australia, delivered on-demand straight to your door. Start Shopping Today</p>
 					</a>
@@ -116,7 +116,7 @@
 					<div class="grid-link">
 					<h3 class="headline">We're local too</h3>
 					<p class="lead">Balsa Central is located in Melrose Park, South Australia. We welcome walk in business, phone orders etc. Talk to real people!</p>
-					<p><a href="" class="btn btn-primary">Our Location</a> <a href="" class="btn btn-primary">Offline Orders</a></p>
+					<p><a href="" class="btn btn-primary">Our Location</a> <a href="<?= site_url('/other-ways-to-order/');?>" class="btn btn-primary">Offline Orders</a></p>
 				</div>
 				</div>
 			</div>
