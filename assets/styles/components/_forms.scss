@@ -13,7 +13,9 @@
 .input-text {
 	@extend .form-control;
 }
-.label {
+label, .label {
 	color: $text-color;
 	font-size: 1em;
+	line-height: 1.1;
+	font-weight: 600;
 }

@@ -156,5 +156,7 @@ x:-o-prefocus, .value::after {
 /*  END OF UGLY BROWSER-SPECIFIC HACKS  */
 /* ------------------------------------  */
 
-    
+.woocommerce-ordering {
+  @extend .value;
+}    
   

@@ -19,6 +19,7 @@ body {
 	line-height: 1.4;
     background: url(../images/graph.png) center center repeat;
     text-rendering: geometricPrecision;
+    -webkit-font-smoothing: antialiased;
 }
 
 .wrap {
@@ -38,7 +39,7 @@ body {
     .home & {
         background: url(../images/graph-lighter.png) center center repeat;
     }
-    
+
 }
 .content {
 	width: 100%;
@@ -65,6 +66,9 @@ h1, .h1 {
     }
     @include breakpoint(lg) {
         font-size: 4em;
+    }
+    &.page-title {
+        text-align: center;
     }
 }
 h2, .h2 {

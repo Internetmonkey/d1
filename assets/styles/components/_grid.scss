@@ -14,7 +14,7 @@
 	.woocommerce-account & {
 		max-width: 500px;
 	}
-	.single-product & {
+	.single-product &, .woocommerce-page & {
 		padding-top: 40px;
 		@include breakpoint(sm) {
 			padding-top: 60px;
