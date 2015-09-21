@@ -336,6 +336,26 @@
 			color: $white;
 		}
 	}
+	table.cart {
+		img {
+			@include breakpoint(md) {
+				width: 75px;
+			}
+			@include breakpoint(md) {
+				width: 100px;
+			}
+		}
+	}
+	td.product-name {
+		dl.variation {
+			dd {
+				margin: 0;
+			}
+			p {
+				margin: 0;
+			}
+		}
+	}
 
 }
 

@@ -19,3 +19,22 @@ label, .label {
 	line-height: 1.1;
 	font-weight: 600;
 }
+
+.gform_wrapper {
+	form {
+
+	}
+	ul {
+		li.gfield {
+			@extend .form-group;
+		}
+	}
+	.top_label {
+		.gfield_label {
+			@extend .control-label;
+		}
+		input.large {
+			@extend .form-control;
+		}
+	}
+} 
