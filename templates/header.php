@@ -18,7 +18,7 @@
 
     <div class="container-fluid">
       <div class="row">
-        <div class="col-xs-2 col-sm-4">
+        <div class="col-xs-2 col-sm-3 col-md-4">
           <nav class="secondary-navigation" role="navigation" aria-label="Secondary Navigation">
       <div class="menu-top-menu-container">
         <ul id="menu-top-menu" class="menu">
@@ -34,10 +34,10 @@
       </div>
     </nav>
         </div>
-        <div class="col-xs-8 col-sm-4 text-center">
+        <div class="col-xs-8 col-sm-6 col-md-4 text-center">
           <a class="brand" href="<?= esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>"><span class="sr-only"><?php bloginfo('name'); ?></span></a>
         </div>
-        <div class="col-xs-2 col-sm-4">
+        <div class="col-xs-2 col-sm-3 col-md-4">
           <div class="cart-toggle"><i class="fa fa-shopping-cart"></i></div>
           <ul class="site-header-cart menu">
       <li class="cart-summary">
