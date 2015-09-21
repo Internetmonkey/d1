@@ -38,7 +38,7 @@
           <a class="brand" href="<?= esc_url(home_url('/')); ?>" title="<?php bloginfo('name'); ?>"><span class="sr-only"><?php bloginfo('name'); ?></span></a>
         </div>
         <div class="col-xs-2 col-sm-3 col-md-4">
-          <div class="cart-toggle"><i class="fa fa-shopping-cart"></i></div>
+          <a href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" class="cart-toggle"><i class="fa fa-shopping-cart"></i></a>
           <ul class="site-header-cart menu">
       <li class="cart-summary">
         <a class="cart-contents" href="<?php echo esc_url( WC()->cart->get_cart_url() ); ?>" title="<?php _e( 'View your shopping cart', 'storefront' ); ?>">
