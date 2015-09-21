@@ -1,4 +1,5 @@
 .woocommerce, .woocommerce-page {
+
 	form.checkout_coupon, form.login, form.register {
 		border:none;
 		background: none;
@@ -208,6 +209,16 @@
 		p.price, span.price {
 			color: $text-color;
 			font-weight: 400;
+			font-family: $sans;
+				text-transform: uppercase;
+				letter-spacing: 0.05em;
+				font-size: 1.7em;
+			.woocommerce-price-suffix {
+				font-size: 14px;
+				font-family: $serif;
+				letter-spacing: 0;
+				text-transform: none;
+			}
 			del {
 				
 				opacity: 1;

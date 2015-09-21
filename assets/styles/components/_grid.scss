@@ -11,11 +11,15 @@
 
 .main {
 	@extend .container;
+	padding-top: 10px;
+		@include breakpoint(sm) {
+			padding-top: 20px;
+		}
 	.woocommerce-account & {
 		max-width: 700px;
 	}
-	.single-product &, .woocommerce-page & {
-		padding-top: 40px;
+	.single-product & {
+		padding-top: 20px;
 		@include breakpoint(sm) {
 			padding-top: 60px;
 		}
