@@ -21,6 +21,7 @@ label, .label {
 }
 
 .gform_wrapper {
+	margin-bottom: 40px;
 	h3.gform_title {
 		@extend .h3;
 	}
@@ -39,14 +40,28 @@ label, .label {
 		input.large, input.medium {
 			@extend .form-control;
 		}
+		.gfield_error {
+			input.large,  select.large, textarea.textarea {
+				width: 100%;
+			}
+		}
 	}
 	textarea.medium {
 		@extend .form-control;
 		height: 9em !important;
 	}
-	.gfield_required {
+
+	div.validation_error {
 		color: $white;
+		border: none;
+		background: $brand-danger;
+		border-radius: 5px;
+		padding: 15px;
+		font-size: 1em;
+		font-weight: normal;
+
 	}
+	
 
 	li.gfield.gfield_error, li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
 		background:none;
@@ -61,12 +76,21 @@ label, .label {
 		div.ginput_container, label.gfield_label {
 			color: $brand-danger;
 			margin: 0;
+			max-width: 100%;
 		}
 		div.gfield_description {
 			color: $brand-danger;
 		}
 	}
+	.gform_footer {
+		input.button, input[type=submit] {
+			@extend .btn;
+			@extend .btn-primary;
+		}
+	} 
 }
+
+ 
 
 
 
