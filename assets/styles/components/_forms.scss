@@ -21,6 +21,9 @@ label, .label {
 }
 
 .gform_wrapper {
+	h3.gform_title {
+		@extend .h3;
+	}
 	form {
 
 	}
@@ -33,8 +36,39 @@ label, .label {
 		.gfield_label {
 			@extend .control-label;
 		}
-		input.large {
+		input.large, input.medium {
 			@extend .form-control;
 		}
 	}
-} 
+	textarea.medium {
+		@extend .form-control;
+		height: 9em !important;
+	}
+	.gfield_required {
+		color: $white;
+	}
+
+	li.gfield.gfield_error, li.gfield.gfield_error.gfield_contains_required.gfield_creditcard_warning {
+		background:none;
+		border: none;
+		
+		input[type=email], input[type=number], input[type=password], input[type=tel], input[type=text], input[type=url], textarea {
+			@extend .form-control;
+			border-color: $brand-danger;
+		}
+	}
+	li.gfield.gfield_error.gfield_contains_required, li.gfield.gfield_error.gfield_contains_required {
+		div.ginput_container, label.gfield_label {
+			color: $brand-danger;
+			margin: 0;
+		}
+		div.gfield_description {
+			color: $brand-danger;
+		}
+	}
+}
+
+
+
+
+
