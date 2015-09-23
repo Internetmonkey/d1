@@ -22,8 +22,8 @@
           <nav class="secondary-navigation" role="navigation" aria-label="Secondary Navigation">
       <div class="menu-top-menu-container">
         <ul id="menu-top-menu" class="menu">
-          <li><a href="">FAQ</a></li>
-          <li><a href="">T &amp; C</a></li>
+          <li><a href="/frequently-asked-questions/">FAQ</a></li>
+          <li><a href="/shop/termsconditions/">T &amp; C</a></li>
           <li> <?php if ( is_user_logged_in() ) : ?>
             <a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','woothemes'); ?>"><?php _e('My Account','woothemes'); ?></a>
               <?php else : ?>
