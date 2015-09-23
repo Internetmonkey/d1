@@ -25,7 +25,7 @@ if ( ! $_repeater && ! $_content ) {
 			</div>
 <? endif; ?>
 <? if ($_content) : ?>
-			<div class="content-wrap col-md-10 col-mg-offset-1 col-lg-8 col-lg-offset-2">
+			<div class="content-wrap col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
 				<?= $_content; ?>
 			</div>
 <? endif; ?>
