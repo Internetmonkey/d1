@@ -12,7 +12,7 @@
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
-                "class": "",
+                "class": " field_type-text field_key-field_5601f4ec8b281",
                 "id": ""
             },
             "default_value": "",
@@ -33,7 +33,7 @@
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
-                "class": "",
+                "class": " field_type-wysiwyg field_key-field_5601ffe68b285",
                 "id": ""
             },
             "default_value": "",
@@ -51,12 +51,12 @@
             "conditional_logic": 0,
             "wrapper": {
                 "width": "",
-                "class": "",
+                "class": "field_type-repeater field_key-field_5601f5438b282 field_type-repeater field_key-field_5601f5438b282",
                 "id": ""
             },
             "min": "",
             "max": "",
-            "layout": "block",
+            "layout": "row",
             "button_label": "Add Row",
             "sub_fields": [
                 {
@@ -69,7 +69,7 @@
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
-                        "class": "",
+                        "class": " field_type-text field_key-field_5601f5618b283",
                         "id": ""
                     },
                     "default_value": "",
@@ -90,7 +90,7 @@
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
-                        "class": "",
+                        "class": " field_type-radio field_key-field_5602079eb4cb6",
                         "id": ""
                     },
                     "choices": {
@@ -112,7 +112,7 @@
                     "conditional_logic": 0,
                     "wrapper": {
                         "width": "",
-                        "class": "",
+                        "class": " field_type-wysiwyg field_key-field_5601f6b18b284",
                         "id": ""
                     },
                     "default_value": "",
@@ -140,5 +140,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1442979251
+    "modified": 1442979475
 }
