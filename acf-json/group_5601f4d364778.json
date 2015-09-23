@@ -1,0 +1,144 @@
+{
+    "key": "group_5601f4d364778",
+    "title": "Accordion \/ Colapsable Content",
+    "fields": [
+        {
+            "key": "field_5601f4ec8b281",
+            "label": "Section title",
+            "name": "collapse_section_title",
+            "type": "text",
+            "instructions": "Enter a title for the Accordion Section ('FAQ' etc ) \r\nIf left blank no title for this section will display",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "placeholder": "",
+            "prepend": "",
+            "append": "",
+            "maxlength": "",
+            "readonly": 0,
+            "disabled": 0
+        },
+        {
+            "key": "field_5601ffe68b285",
+            "label": "Section Pre-Content",
+            "name": "collapse_section_pre",
+            "type": "wysiwyg",
+            "instructions": "This will appear between the title and the start of the accordion sections",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "tabs": "all",
+            "toolbar": "basic",
+            "media_upload": 0
+        },
+        {
+            "key": "field_5601f5438b282",
+            "label": "Accordion Content",
+            "name": "collapse_section_content",
+            "type": "repeater",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "min": "",
+            "max": "",
+            "layout": "block",
+            "button_label": "Add Row",
+            "sub_fields": [
+                {
+                    "key": "field_5601f5618b283",
+                    "label": "Accordion Section Title",
+                    "name": "collapse_title",
+                    "type": "text",
+                    "instructions": "The title will be shown at all times, it will be the label on the section visitors click on to expand the accordion. ",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "placeholder": "",
+                    "prepend": "",
+                    "append": "",
+                    "maxlength": "",
+                    "readonly": 0,
+                    "disabled": 0
+                },
+                {
+                    "key": "field_5602079eb4cb6",
+                    "label": "Open by default?",
+                    "name": "collapse_default",
+                    "type": "radio",
+                    "instructions": "Should this Panel be 'Open' by default when the page loads?",
+                    "required": 1,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "choices": {
+                        "true": "Yes",
+                        "false": "No"
+                    },
+                    "other_choice": 0,
+                    "save_other_choice": 0,
+                    "default_value": "false",
+                    "layout": "horizontal"
+                },
+                {
+                    "key": "field_5601f6b18b284",
+                    "label": "Accordion Content",
+                    "name": "collapse_content",
+                    "type": "wysiwyg",
+                    "instructions": "",
+                    "required": 0,
+                    "conditional_logic": 0,
+                    "wrapper": {
+                        "width": "",
+                        "class": "",
+                        "id": ""
+                    },
+                    "default_value": "",
+                    "tabs": "all",
+                    "toolbar": "basic",
+                    "media_upload": 0
+                }
+            ]
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "page_template",
+                "operator": "==",
+                "value": "template-accordion.php"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "acf_after_title",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": 1,
+    "description": "",
+    "modified": 1442979251
+}
