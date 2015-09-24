@@ -3,6 +3,10 @@
 use Roots\Sage\Config;
 use Roots\Sage\Wrapper;
 
+$wrap = true;
+
+
+
 ?>
 
 <!doctype html>
@@ -22,13 +26,13 @@ use Roots\Sage\Wrapper;
     <div class="wrap" role="document">
       <div class="content">
 
-        <?php if (!is_front_page()) : ?>
+        <?php if (Config\wrap_page()): ?>
         <main class="main" role="main">
         <?php endif; ?>
 
           <?php include Wrapper\template_path(); ?>
 
-        <?php if (!is_front_page()) : ?>
+        <?php if (Config\wrap_page()): ?>
         </main><!-- /.main -->
         <?php endif; ?>
 

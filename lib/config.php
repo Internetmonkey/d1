@@ -68,3 +68,44 @@ function display_sidebar() {
 
   return $display;
 }
+
+/**
+ * Define which pages shouldn't have the sidebar
+ */
+function wrap_page() {
+  static $wrap;
+
+  if (!isset($wrap)) {
+    $conditionalCheck = new ConditionalTagCheck(
+      /**
+       * Any of these conditional tags that return true won't show the sidebar.
+       * You can also specify your own custom function as long as it returns a boolean.
+       *
+       * To use a function that accepts arguments, use an array instead of just the function name as a string.
+       *
+       * Examples:
+       *
+       * 'is_single'
+       * 'is_archive'
+       * ['is_page', 'about-me']
+       * ['is_tax', ['flavor', 'mild']]
+       * ['is_page_template', 'about.php']
+       * ['is_post_type_archive', ['foo', 'bar', 'baz']]
+       *
+       */
+      [
+        'is_front_page',
+        ['is_page_template', 'template-custom.php'],
+        ['is_page_template', 'template-aero.php'],
+        ['is_page_template', 'template-craft.php'],
+        ['is_page_template', 'template-stage.php'],
+        ['is_page_template', 'template-surf.php'],
+        ['is_page_template', 'template-edu.php']
+      ]
+    );
+
+    $display = apply_filters('sage/wrap_page', $conditionalCheck->result);
+  }
+
+  return $display;
+}
