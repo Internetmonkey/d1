@@ -23,7 +23,7 @@
 		}
 	}
 	.hero-text {
-		h1, p {
+		h1, .h3, p {
 			@include breakpoint(sm) {
 				color: $white;
 				> a {

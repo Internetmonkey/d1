@@ -15,6 +15,10 @@
 		@include breakpoint(sm) {
 			padding-top: 20px;
 		}
+	margin-bottom: 20px;
+		@include breakpoint(sm) {
+			margin-bottom: 80px;
+		}
 	.woocommerce-account & {
 		max-width: 700px;
 	}

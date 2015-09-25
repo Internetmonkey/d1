@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Aero Page
+ * Template Name: Craft Page
  */
 ?>
 
@@ -17,7 +17,7 @@
   					<div class="hero-text">
   						<div class="container">
   							<div class="row">
-  								<div class="col-md-6">
+  								<div class="col-md-6 col-md-offset-3">
   						<h1>Australia's #1 Choice for Balsa Wood</h1>
 
 <p class="lead">Our Balsa is simply better - completely free of any bleaches or harmful chemical processes to 'whitewash' the wood. Our select Balsa is naturally cleaner, making it not only safer to work with, but also better for the environment.</p>
@@ -41,11 +41,6 @@
   			
   		
   	</div>
-  	<div class="hero-image visible-md visible-lg wow fadeInRight">
-  		
-  				<img class="img-responsive" src="<?php bloginfo('template_directory'); ?>/dist/images/balsa_sheets.png" alt="">
-
-  			</div>
   </div>
 </header>
 <main>

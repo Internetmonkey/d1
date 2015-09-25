@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Aero Page
+ * Template Name: Stage Balsa Page
  */
 ?>
 

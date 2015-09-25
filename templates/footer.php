@@ -5,9 +5,9 @@
 			<h3>Choose your application, hobby sector or industry now</h3>
 			<p>Find products, guides and helpful information exclusive to your niche!</p>
 			<div class="btn-row">
-				<a href="" class="btn btn-default">Aeromodel</a> 
-				<a href="" class="btn btn-default">Craft</a> 
-				<a href="" class="btn btn-default">Stage, Set & Film</a> 
+				<a href="<?= site_url('/aeromodel/');?>" class="btn btn-default">Aeromodel</a> 
+				<a href="<?= site_url('/craft/');?>" class="btn btn-default">Craft</a> 
+				<a href="<?= site_url('/stage-set-building-film-theatre/');?>" class="btn btn-default">Stage, Set & Film</a> 
 				
 
 				<div class="dropdown dropdown-inline">
@@ -42,8 +42,8 @@
 
   	<form class="form-inline text-center">
   		<div class="form-group">
-	    <label class="sr-only" for="exampleInputPassword3">Password</label>
-	    <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Password">
+	    <label class="sr-only" for="exampleInputPassword3">Name</label>
+	    <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Name">
 	  </div>
 	  <div class="form-group">
 	    <label class="sr-only" for="exampleInputEmail3">Email address</label>
@@ -51,7 +51,7 @@
 	  </div>
 	  
 	  
-	  <button type="submit" class="btn btn-default">Sign in</button>
+	  <button type="submit" class="btn btn-default">Sign Up</button>
 	</form>
 </div>
   </aside>
