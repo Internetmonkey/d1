@@ -83,13 +83,13 @@
 
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
-				<a href="">
+				<a href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
 					<img src="<?php bloginfo('template_directory'); ?>/dist/images/balsa-wood-wing-in-progress-bc-grid.jpg" alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a href="" class="grid-link green">
+					<a href="<?= site_url('/aeromodel/modelling-club-discounts/');?>" class="grid-link green">
 					<h3 class="headline">Get 10% off with our Club Sponsorship</h3>
 					<p class="lead">Learn more about eligibility and make an application.</p>
 					
