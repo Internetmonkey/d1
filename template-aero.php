@@ -66,13 +66,13 @@
 	<div class="container">
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
-				<a href="">
+				<a href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
 					<img src="<?php bloginfo('template_directory'); ?>/dist/images/mixed-balsa-wood-bc-grid.jpg"  alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a class="grid-link orange" href="">
+					<a class="grid-link orange" href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
 					<h3 class="headline">Specifying densities and weights</h3>
 					<p class="lead">Learn how to get the right Balsa Wood through our 'competition selects' options</p>
 					</a>
@@ -83,7 +83,7 @@
 
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
-				<a href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
+				<a href="<?= site_url('/aeromodel/modelling-club-discounts/');?>">
 					<img src="<?php bloginfo('template_directory'); ?>/dist/images/balsa-wood-wing-in-progress-bc-grid.jpg" alt="">
 				</a>
 			</div>
