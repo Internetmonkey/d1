@@ -44,7 +44,7 @@
     'single_product': {
       init: function() {
         // JavaScript to be fired on the single product page
-        $('.product-single .thumbnails').slick();
+        $('body.product-single .thumbnails').slick();
       }
     }
   };

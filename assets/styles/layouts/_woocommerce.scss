@@ -277,9 +277,10 @@
 					    max-width: 500px;
 					    margin-bottom: 30px;
 					    				}
-				@include breakpoint(md) {
+				@include breakpoint(lg) {
 					height: 550px;
 					overflow: hidden;
+
 				}
 				.woocommerce-main-image {
 					img {
@@ -302,7 +303,7 @@
 					@include breakpoint(xs) {
 						/* Temporary styles */
 						height: 350px;
-						overflow: scroll;
+						overflow: auto;
 					}
 					@include breakpoint(sm) {
 						display: block;
@@ -315,7 +316,7 @@
 
 						/* Temporary styles */
 						height: 550px;
-						overflow: scroll;
+						overflow: auto;
 					}
 					a {
 						width: auto;
