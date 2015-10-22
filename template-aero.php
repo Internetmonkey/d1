@@ -41,7 +41,7 @@
 			<div class="row">
 				<div class="col-md-8 col-md-offset-2">
 					<h2>Let's build something great together</h2>
-					<p class="lead">To get oustanding results you need the best materials and the right advice</p>
+					<p class="lead">To get outstanding results you need the best materials and the right advice</p>
 					<p class="lead">Our premium quality Balsa Wood is beloved by modellers worldwide</p>
 					<p class="lead">Choose the exact sizes and weights your project requires.</p>
 					<p class="lead">We'll ship it pristine and well protected straight to your door.</p>
@@ -121,7 +121,8 @@
 			<div class="col-md-8 col-md-offset-2">
 				<h2>More Coming Soon!</h2>
 				<p class="lead">We're just getting started, more content coming soon including free downloadable plans, tutorials and more.</p>
-				<p class="lead">We'd love to see what you're making too, the Balsa Central "hall of fame" will be opening soon and we need your submissions <a href="#">Contact Us</a> today or email us at<a href="mailto:sales@balsacentral.com">sales@balsacentral.com</a> </p>
+				<p class="lead">We'd love to see what you're making too, the Balsa Central "hall of fame" will be opening soon and we need your submissions.</p>
+				<p class="lead"><a href="#">Contact Us</a> today or email us at <a href="mailto:sales@balsacentral.com">sales@balsacentral.com</a></p>
 			</div>
 		</div>
 		<hr class="stripe" />
