@@ -10,9 +10,10 @@
 	}
 }
 
-.input-text {
+input[type="text"], .input-text {
 	@extend .form-control;
 }
+
 label, .label {
 	color: $text-color;
 	font-size: 1em;
