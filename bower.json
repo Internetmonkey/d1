@@ -12,18 +12,19 @@
     "font-awesome": "~4.4.0",
     "matchHeight": "~0.6.0",
     "modernizr": "2.8.2",
-    "wow": "~1.1.2"
+    "wow": "~1.1.2",
+    "slick-carousel": "~1.5.8"
   },
   "overrides": {
     "modernizr": {
       "main": "./modernizr.js"
     },
     "font-awesome": {
-          "main": [
-              "./css/font-awesome.css",
-              "./fonts/*"
-          ]
-      },
+      "main": [
+        "./css/font-awesome.css",
+        "./fonts/*"
+      ]
+    },
     "bootstrap-sass": {
       "main": [
         "./assets/stylesheets/bootstrap/_variables.scss",
