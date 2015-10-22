@@ -280,7 +280,6 @@
 				@include breakpoint(lg) {
 					height: 550px;
 					overflow: hidden;
-
 				}
 				.woocommerce-main-image {
 					img {
@@ -302,7 +301,7 @@
 					vertical-align: bottom;
 					@include breakpoint(xs) {
 						/* Temporary styles */
-						height: 350px;
+						max-height: 350px;
 						overflow: auto;
 					}
 					@include breakpoint(sm) {
@@ -315,7 +314,7 @@
 						vertical-align: bottom;
 
 						/* Temporary styles */
-						height: 550px;
+						max-height: 550px;
 						overflow: auto;
 					}
 					a {
