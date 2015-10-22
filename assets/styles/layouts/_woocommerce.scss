@@ -383,7 +383,11 @@
 
 }
 
-
+.variations {
+	td.label {
+		display: table-cell;
+	}
+}
 
 .woocommerce-price-suffix {
 	display: inline-block;
