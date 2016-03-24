@@ -35,7 +35,7 @@ while [ "$1" != "" ]; do
 								;;
 		-g | --gulp )			gulp=1
 								;;
-        * )                     echo "available flags are -t / --target : Should be staging or deploy, -i for keyfile relative to users .ssh dir, -p for ssh port"
+        * )                     echo "available flags are -t / --target : Should be staging or production, -i for keyfile relative to users .ssh dir, -p for ssh port"
                                 exit 1
     esac
     shift
@@ -102,8 +102,13 @@ fi
 
 options=(-azP --rsh=\"ssh -p $ssh_port -i $key_path\" --delete --exclude-from=${SCRIPT_PATH}/exclude.txt)
 
-echo ">>> Starting rsync, wish me luck..."
+echo ">>> Pre-roll succesful. Connection succesful. Starting deployment"
 eval rsync ${options[@]} ${SCRIPT_PATH}/ bc@serv01.avm428.sgvps.net:"${destination}"
-echo ">>>Great Success!!"
+echo ">>> Deployment has completed to remote host"
+echo ">>> Deployment successful"
 exit 0
 
+if [ $gulp ]; then
+	echo ">>> Starting Glup cleanup tasks"
+	gulp
+fi
