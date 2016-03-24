@@ -53,6 +53,7 @@ function display_sidebar() {
        */
       [
         'is_page',
+        'is_archive',
         'is_shop',
         'is_checkout',
         'is_product',
@@ -100,7 +101,7 @@ function wrap_page() {
         ['is_page_template', 'template-craft.php'],
         ['is_page_template', 'template-stage.php'],
         ['is_page_template', 'template-surf.php'],
-        ['is_page_template', 'template-edu.php']
+        ['is_page_template', 'template-education.php']
       ]
     );
 
