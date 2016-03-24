@@ -1,6 +1,6 @@
 <?php
 /**
- * Template Name: Aero Page
+ * Template Name: Education - Students Page
  */
 ?>
 
@@ -9,7 +9,7 @@
 
 
 <header>
-  <div class="hero-container" style="background-image:url(<?php bloginfo('template_directory'); ?>/dist/images/aero-cover-image-wing-in-progress.jpg);">
+  <div class="hero-container" style="background-image:url(<?php bloginfo('template_directory'); ?>/dist/images/balsa-cover-image.jpg);">
   	
   		<div class="table-box">
   			
@@ -17,10 +17,20 @@
   					<div class="hero-text">
   						<div class="container">
   							<div class="row">
-  								<div class="col-md-8 col-md-offset-2 text-center">
-  						<h1>Welcome to Aero Central</h1>
-  						<p class="h3 heading">Balsa Central's home for Aeromodelling and Aviation</h3>
+  								<div class="col-md-6 col-md-offset-3">
+  						<h1>Australia's #1 Choice for Balsa Wood</h1>
 
+<p class="lead">Our Balsa is simply better - completely free of any bleaches or harmful chemical processes to 'whitewash' the wood. Our select Balsa is naturally cleaner, making it not only safer to work with, but also better for the environment.</p>
+
+<ul>
+	<li>100% Plantation Grown Balsa</li>
+<li>No Harmful Bleaches or Chemicals</li>
+<li>Machined & Finished with pride in Australia</li>
+</ul>
+
+<p>Learn more <a href="">about</a> the Balsa Central difference</p>
+<p><a href="" class="btn btn-warning">More details &rarr;</a> <a href="" class="btn btn-primary">Select options</a>
+  					</p>
   				</div>
   			</div>
   		</div>
@@ -33,19 +43,29 @@
   	</div>
   </div>
 </header>
-<main class="main">
+<main>
 	<!-- Market category portals -->
 	<section class="page-section wow fadeIn" id="market">
 		<div class="container text-center">
 			<hr class="stripe" />
-			<div class="row">
-				<div class="col-md-8 col-md-offset-2">
-					<h2>Let's build something great together</h2>
-					<p class="lead">To get outstanding results you need the best materials and the right advice</p>
-					<p class="lead">Our premium quality Balsa Wood is beloved by modellers worldwide</p>
-					<p class="lead">Choose the exact sizes and weights your project requires.</p>
-					<p class="lead">We'll ship it pristine and well protected straight to your door.</p>
-					<p class="lead">Spend less time hunting for wood. More time soaring.</p>
+			<h3>Choose your application, hobby sector or industry now</h3>
+			<p>It'd be good to explain this a little bit more here.</p>
+			<div class="btn-row">
+				<a href="" class="btn btn-default">Aeromodel</a> 
+				<a href="" class="btn btn-default">Craft</a> 
+				<a href="" class="btn btn-default">Stage, Set & Film</a> 
+				
+
+				<div class="dropdown dropdown-inline">
+				  <button id="dLabel" class="btn btn-default sector-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				    More options...
+				    <span class="caret"></span>
+				  </button>
+				  <ul class="dropdown-menu" aria-labelledby="dLabel">
+				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Market sector example</a></li>
+				    <li><a href="">Market sector example</a></li>
+				  </ul>
 				</div>
 			</div>
 			<hr class="stripe" />
@@ -59,41 +79,85 @@
 
 	<!-- Content blocks for interest -->
 
-	<section class="page-section block-section">
+	<section class="page-section">
 		
 
 		<div class="block-grid">
 	<div class="container">
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-left col-sm-6 grid-match">
-				<a href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/mixed-balsa-wood-bc-grid.jpg"  alt="">
+				<a href="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-right col-sm-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a class="grid-link orange" href="<?= site_url('/aeromodel/selecting-balsa-wood-density/');?>">
-					<h3 class="headline">Specifying densities and weights</h3>
-					<p class="lead">Learn how to get the right Balsa Wood through our 'competition selects' options</p>
+					<a class="grid-link orange" href="">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
 					</a>
 				</div>
 			</div>
 		</div><!-- /.row -->
-
-
 		<div class="row wow fadeIn">
 			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
-				<a href="<?= site_url('/aeromodel/modelling-club-discounts/');?>">
-					<img src="<?php bloginfo('template_directory'); ?>/dist/images/balsa-wood-wing-in-progress-bc-grid.jpg" alt="">
+				<a href="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
 				</a>
 			</div>
 			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
 				<div class="grid-content-wrapper text-center">
-					<a href="<?= site_url('/aeromodel/modelling-club-discounts/');?>" class="grid-link green">
-					<h3 class="headline">Get 10% off with our Club Sponsorship</h3>
-					<p class="lead">Learn more about eligibility and make an application.</p>
+					<a href="" class="grid-link green">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">Or we could do it this way, where it's just the button that's a link.</p>
 					
 				</a>
+				</div>
+			</div>
+		</div><!-- /.row -->
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-left col-sm-6 grid-match">
+				<a href="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
+				</a>
+			</div>
+			<div class="grid-content grid-right col-sm-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<a class="grid-link blue" href="">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					</a>
+				</div>
+			</div>
+		</div><!-- /.row -->
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-right col-sm-6 col-sm-push-6 grid-match">
+				<a href="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg" alt="">
+				</a>
+			</div>
+			<div class="grid-content grid-left col-sm-6 col-sm-pull-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<div class="grid-link">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">Or we could do it this way, where it's just the button that's a link.</p>
+					<p><a href="" class="btn btn-primary">I'm a link!</a> <a href="" class="btn btn-primary">Another link!</a></p>
+				</div>
+				</div>
+			</div>
+		</div><!-- /.row -->
+		<div class="row wow fadeIn">
+			<div class="grid-image grid-left col-sm-6 grid-match">
+				<a href="">
+					<img src="<?php bloginfo('template_directory'); ?>/dist/images/placeholder.jpg"  alt="">
+				</a>
+			</div>
+			<div class="grid-content grid-right col-sm-6 grid-match">
+				<div class="grid-content-wrapper text-center">
+					<a class="grid-link red" href="">
+					<h3 class="headline">Headline, possibly about the educational products.</h3>
+					<p class="lead">This text will be vertically centered next to an image. The whole tile is an active link</p>
+					</a>
 				</div>
 			</div>
 		</div><!-- /.row -->
@@ -102,36 +166,16 @@
 
 	</section>
 
-		<!-- Product categories -->
+	<!-- Product categories -->
 	<section class="page-section featured-products wow fadeIn">
 		<div class="container">
 			<div class="row">
-				<div class="col-md-8 col-md-offset-2 text-center">
-					<h2 class="heading">Most Popular Aeromodelling Products</h2>
-				</div>
-				<?php echo do_shortcode('[products ids="251,253,255,256"]'); ?>
+				<?php echo do_shortcode('[featured_products per_page="4" columns="4"]'); ?>
 			</div>
 		</div><!-- /.container -->
 	</section>
 
-	<section class="page-section wow fadeIn" id="market">
-	<div class="container text-center">
-		<hr class="stripe" />
-		<div class="row">
-			<div class="col-md-8 col-md-offset-2">
-				<h2>More Coming Soon!</h2>
-				<p class="lead">We're just getting started, more content coming soon including free downloadable plans, tutorials and more.</p>
-				<p class="lead">We'd love to see what you're making too, the Balsa Central "hall of fame" will be opening soon and we need your submissions.</p>
-				<p class="lead"><a href="#">Contact Us</a> today or email us at <a href="mailto:sales@balsacentral.com">sales@balsacentral.com</a></p>
-			</div>
-		</div>
-		<hr class="stripe" />
-	</div>
 
-</section>
-
-
-<!--
 	<section class="page-section wow fadeIn">
 <div class="container">
 	<div class="row" role="main">
@@ -194,7 +238,7 @@
 	
 </div>
 </section>
--->
+
 
 </main>
 
