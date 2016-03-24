@@ -24,8 +24,49 @@
 		color: $white;
 		margin-top: 0;
 	}
-	.form-line {
+
+	.form-inline {
 		text-align: center;
+	}
+
+	.gform_wrapper {
+
+		.gform_body {
+			display: inline-block; 
+		}
+
+		.form-group {
+			margin-right: 10px;
+
+			.gfield_label {
+			/* copied from bootstrap 'sr-only' */
+				position: absolute;
+				width: 1px;
+				height: 1px;
+				margin: -1px;
+				padding: 0;
+				overflow: hidden;
+				clip: rect(0,0,0,0);
+				border: 0;
+			}
+
+		}
+
+		.top_label input.medium, 
+		.top_label select.medium {
+			width: 100%;
+		}
+
+		.gform_footer{
+
+			display: inline-block; 
+			padding: 0;
+			margin: 0; 
+
+			input[type=submit] {
+				margin: 6px 0 15px;
+			}
+		}
 	}
 }
 

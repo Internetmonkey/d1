@@ -7,26 +7,37 @@ $sidebar-sm-columns:    4;
 
 // Colors
 
-
-
-
 $white: #ffffff;
-
-
-
 $green: #519715;
+$dark-green: #266807;
 $charcoal: #314443;
 $blue: #05bfbf;
 $orange: #ff932b;
 $red: #e14639;
-$dark-green: #266807;
+
 $brown: #3e2200;
 
-$primary:$green;
+$primary: $green;
 $text-color: $charcoal;
 $info: $blue;
 $warning: $orange;
 $error: $red;
 
-$brand-primary:         $green;
+$brand-primary: $primary;
+$brand-info: $info;
+$brand-warning: $warning;
+$brand-error: $error;
 $black: $charcoal;
+
+
+$font-family-sans-serif: "League Gothic", 'Arial Narrow', sans-serif;
+$font-family-serif: Georgia, "Times New Roman", Times, serif;
+$font-family-base: $font-family-serif;
+$font-size-base: 16px;
+$line-height-base: 1.4;
+
+$headings-font-family: $font-family-sans-serif;
+$headings-font-weight: 400;
+
+$serif: $font-family-serif;
+$sans: $font-family-sans-serif;

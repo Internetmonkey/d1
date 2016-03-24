@@ -1,22 +1,6 @@
-@font-face {
-    font-family: 'League Gothic';
-    src: url('../fonts/leaguegothic-regular-webfont.eot');
-    src: url('../fonts/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('../fonts/leaguegothic-regular-webfont.woff') format('woff'),
-         url('../fonts/leaguegothic-regular-webfont.ttf') format('truetype'),
-         url('../fonts/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-$serif: Georgia, serif;
-$sans: "League Gothic", 'Arial Narrow', sans-serif;
 
 body {
-	font-family: $serif;
 	font-weight: 300;
-	font-size: 16px;
-	line-height: 1.4;
     background: url(../images/graph.png) center center repeat;
     text-rendering: geometricPrecision;
     -webkit-font-smoothing: antialiased;
@@ -43,11 +27,6 @@ body {
 }
 .content {
 	width: 100%;
-}
-
-h1, .h1, h2, .h2, h3, .h3 {
-    font-family: $sans;
-    font-weight: 400 !important;
 }
 
 h1, .h1 {

@@ -2,19 +2,8 @@
 	<meta charset="utf-8">
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style id="critical">
+	.banner,.banner a{color:#fff}.banner{background:#519715;text-align:center;width:100%;top:0;position:fixed;left:0;right:0;z-index:100;line-height:1}.banner .brand{-webkit-background-size:200px 158px;background-size:200px 158px;background-position:center -72px;width:200px;height:40px;margin:10px auto}@media (min-width:768px){.banner .brand{-webkit-background-size:300px 237px;background-size:300px 237px;background-position:center top;width:300px;height:90px}}.brand{display:inline-block;background-image:url(../images/balsa-central-sprite-white.svg);background-repeat:no-repeat}
+	</style>
 	<?php wp_head(); ?>
-		<!-- Facebook Pixel Code -->
-	<script>
-	!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-	n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
-	n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
-	t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
-	document,'script','//connect.facebook.net/en_US/fbevents.js');
-
-	fbq('init', '146637329004395');
-	fbq('track', "PageView");</script>
-	<noscript><img height="1" width="1" style="display:none"
-	src="https://www.facebook.com/tr?id=146637329004395&ev=PageView&noscript=1"
-	/></noscript>
-	<!-- End Facebook Pixel Code -->
 </head>

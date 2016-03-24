@@ -7,7 +7,7 @@
 			<div class="btn-row">
 				<a href="<?= site_url('/aeromodel/');?>" class="btn btn-default">Aeromodel</a> 
 				<a href="<?= site_url('/craft/');?>" class="btn btn-default">Craft</a> 
-				<a href="<?= site_url('/stage-set-building-film-theatre/');?>" class="btn btn-default">Stage, Set & Film</a> 
+				<a href="<?= site_url('/education-primary-secondary-teaching/');?>" class="btn btn-default">Education</a> 
 				
 
 				<div class="dropdown dropdown-inline">
@@ -16,12 +16,9 @@
 				    <span class="caret"></span>
 				  </button>
 				  <ul class="dropdown-menu" aria-labelledby="dLabel">
-				    <li><a href="">Education - Students</a></li>
-				    <li><a href="">Education - Teachers</a></li>
-				    <li><a href="">Promotional Products</a></li>
-				    <li><a href="">Architecture Models</a></li>
-				    <li><a href="">Surfboards & SUPs</a></li>
-				    <li><a href="">Fibreglassing & Industrial</a></li>
+				    <li><a href="<?= site_url('/stage-set-building-film-theatre/');?>">Stage, Set &amp; Film</a></li>
+				    <li><a href="<?= site_url('/promotional-products/');?>">Promotional Products</a></li>
+				    <li><a href="<?= site_url('/surfboard-balsa-wood/');?>">Surfboards &amp; SUPs</a></li>
 				  </ul>
 				</div>
 			</div>
@@ -35,26 +32,29 @@
     <?php dynamic_sidebar('sidebar-footer'); ?>
   </div> -->
 
+  <?php 
+
+  $d1_form = false;
+
+  $d1_form_object  = get_field('sign_up_form', 'options' );
+  if ( $d1_form_object ) {
+  	$d1_form = $d1_form_object['id'];
+  }
+
+  if ( $d1_form ) :
+
+  ?>
+
   <aside class="signup-blade">
+
 
 <div class="container">
   	<h4>Join our mailing list for great deals, useful tips and inspiring projects!</h4>
-
-  	<form class="form-inline text-center">
-  		<div class="form-group">
-	    <label class="sr-only" for="exampleInputPassword3">Name</label>
-	    <input type="text" class="form-control" id="exampleInputPassword3" placeholder="Name">
-	  </div>
-	  <div class="form-group">
-	    <label class="sr-only" for="exampleInputEmail3">Email address</label>
-	    <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
-	  </div>
-	  
-	  
-	  <button type="submit" class="btn btn-default">Sign Up</button>
-	</form>
+  	<?php echo do_shortcode( '[gravityform id="' . $d1_form . '" title="false" description="false" ajax="true"]' ); ?>
 </div>
   </aside>
+
+<?php endif; ?>
 
   <section class="footer-nav-container">
   <div class="container ">
@@ -91,7 +91,18 @@
 
   </div>
 </section>
-
-
-
 </footer>
+  <!-- Facebook Pixel Code -->
+<script>
+!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;
+n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,
+document,'script','//connect.facebook.net/en_US/fbevents.js');
+
+fbq('init', '146637329004395');
+fbq('track', "PageView");</script>
+<noscript><img height="1" width="1" style="display:none"
+src="https://www.facebook.com/tr?id=146637329004395&ev=PageView&noscript=1"
+/></noscript>
+  <!-- End Facebook Pixel Code -->

@@ -310,3 +310,18 @@
 .admin-bar .banner {
   top: 32px;
 }
+
+.woocommerce-demo-store {
+
+  .demo_store {
+    background: $orange;
+  }
+
+  &.admin-bar .banner {
+    top: 86px;
+  }
+
+  .banner {
+    top: 54px;
+  }
+}

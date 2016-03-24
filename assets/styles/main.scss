@@ -1,4 +1,6 @@
+@import "common/_fonts";
 @import "common/_variables";
+
 
 // Automatically injected Bower dependencies via wiredep (never manually edit this block)
 // bower:scss
@@ -20,11 +22,6 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navs.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_navbar.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_breadcrumbs.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pagination.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_pager.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_labels.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_badges.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_jumbotron.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_thumbnails.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_alerts.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_progress-bars.scss";
@@ -35,16 +32,16 @@
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_wells.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_close.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_modals.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_tooltip.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_popovers.scss";
-@import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_carousel.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_utilities.scss";
 @import "../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap/_responsive-utilities.scss";
+@import "../../bower_components/slick-carousel/slick/slick.scss";
+@import "../../bower_components/slick-carousel/slick/slick-theme.scss";
 // endbower
 
 @import "common/_mixins";
 @import "common/_global";
-@import "components/_animate";
+@import "layouts/_header";
+
 @import "components/_buttons";
 @import "components/_comments";
 @import "components/_forms";
@@ -52,7 +49,8 @@
 @import "components/_select";
 @import "components/_wp-classes";
 @import "components/_collapse";
-@import "layouts/_header";
+
+
 @import "layouts/_sidebar";
 @import "layouts/_footer";
 @import "layouts/_pages";
@@ -60,4 +58,6 @@
 @import "layouts/_home-page";
 @import "layouts/_aero-page";
 @import "layouts/_woocommerce";
+@import "components/_font-awesome.scss";
+@import "components/_animate";
 
